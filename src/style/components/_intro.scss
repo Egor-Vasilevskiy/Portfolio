@@ -1,0 +1,47 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .intro__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro__btn {
+    display: flex; 
+    flex-direction: column;
+    transform: rotate(-90deg);
+  }
+  
+  .btn {
+    text-decoration: none;
+    background: none;
+    border:none; 
+  }
+  
+  a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+  }
+  
+  .intro__logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    line-height: 59px;
+  }
+  
+  .intro__info {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .intro__foto {
+    height: auto;
+    width: 100%;
+  }
+  
