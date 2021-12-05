@@ -9,18 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style/main.css">
-    <title>Egor Vasilevskiy</title>
+    <title>Egor Vasilevskiy - web developer</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__body">
                 <nav class="nav">
-                    <a class="nav__link" href="#home">Home</a>
-                    <a class="nav__link" href="#about">About me</a> 
-                    <a class="nav__link" href="#skills">Skills</a>
-                    <a class="nav__link" href="#portfolio">Portfolio</a>
-                    <a class="nav__link" href="#contacts">Contacts</a>
+                    <a class="nav__link lng-home" href="#home">Home</a>
+                    <a class="nav__link lng-about" href="#about">About me</a> 
+                    <a class="nav__link lng-skills" href="#skills">Skills</a>
+                    <a class="nav__link lng-portfolio" href="#portfolio">Portfolio</a>
+                    <a class="nav__link lng-contacts" href="#contacts">Contacts</a>
                 </nav>
             </div>
         </div>
@@ -29,12 +29,16 @@
     <div id="home" class="intro">
         <div class="container">
             <div class="intro__body">
-                <div class="intro__logo">Egor <br> Vasilevskiy</div>
-                <div class="intro__info">Web developer <br> 21 years old, Minsk</div>
-                <div class="intro__btn">
-                    <button class="btn">RU |</button>
-                    <button class="btn">ENG</button>
-                    </div>
+                <div class="intro__logo lng-logo">Egor <br> Vasilevskiy</div>
+                <div class="intro__info lng-info">Web developer <br> 21 years old, Minsk</div>
+
+                <div class="select">
+                    <select class="change-lang">
+                        <option value="ru">RU</option>
+                        <option value="en">EN</option>
+                    </select>
+                </div>
+                
             </div>
             <div class="intro__footer">
                 <img class="intro__foto" src="./src/image/foto.png" alt="">
@@ -46,16 +50,16 @@
         <section id="about" class="about">
             <div class="container">
                 <div class="about__body">
-                    <h3 class="about__title">About me</h3>
-                    <p class="about__me">
+                    <h3 class="about__title lng-sectionAbout">About me</h3>
+                    <p class="about__me lng-aboutMe1">
                         Hi, I'm Egor – Web developer from Minsk. I am interested in development and everything related to it.
                     </p>
 
-                    <p  class="about__me">
+                    <p  class="about__me lng-aboutMe2">
                         I am a beginner developer with a desire to learn everything new related to my technologies
                     </p>
 
-                    <p  class="about__me">
+                    <p  class="about__me lng-aboutMe3">
                         Ready to implement excellent projects with wonderful people.
                     </p>
                 </div>
@@ -65,8 +69,8 @@
         <section id="skills" class="skills">
             <div class="container">
                 <div class="skills__body">
-                    <h3 class="skills__title">Skills</h3>
-                    <p class="skills__copy">
+                    <h3 class="skills__title lng-sectionSkills">Skills</h3>
+                    <p class="skills__copy lng-skillsCopy">
                         I work with such technologies :
                     </p>
 
@@ -108,27 +112,27 @@
         <section id="portfolio" class="portfolio">
             <div class="container">
                 <div class="portfolio__body">
-                    <h3 class="portfolio__title">Portfolio</h3>
+                    <h3 class="portfolio__title lng-sectionPortfolio">Portfolio</h3>
 
                     <div class="portfolio__container">
                         <div class="portfolio__item">
                             <img class="portfolio__item-img" src="./src/image/Traveland.jpg" alt="Traveland">
-                            <a class="portfolio__item-link" href="https://egor-vasilevskiy.github.io/Traveland/" target="_blank">Traveland - <br> Website for a travel company</a>
+                            <a class="portfolio__item-link lng-traveland" href="https://egor-vasilevskiy.github.io/Traveland/" target="_blank">Traveland - <br> Website for a travel company</a>
                         </div>
 
                         <div class="portfolio__item">
                             <img class="portfolio__item-img" src="./src/image/WebsiteIT.jpg" alt="WebsiteIT">
-                            <a class="portfolio__item-link" href="https://egor-vasilevskiy.github.io/WebsiteIT/" target="_blank">IT Company - <br> Website for a IT Company</a>
+                            <a class="portfolio__item-link lng-websiteit" href="https://egor-vasilevskiy.github.io/WebsiteIT/" target="_blank">IT Company - <br> Website for a IT Company</a>
                         </div>
 
                         <div class="portfolio__item">
                             <img class="portfolio__item-img" src="./src/image/Cosmet.jpg" alt="Cosmetic WebSite">
-                            <a class="portfolio__item-link" href="https://egor-vasilevskiy.github.io/Cosmet/" target="_blank">AgavaCosmet - <br> Site for a master beautician <br> (In developing)</a>
+                            <a class="portfolio__item-link lng-cosmetic" href="https://egor-vasilevskiy.github.io/Cosmet/" target="_blank">AgavaCosmet - <br> Site for a master beautician <br> (In developing)</a>
                         </div>
 
                         <div class="portfolio__item">
                             <img class="portfolio__item-img" src="./src/image/Calculator.jpg" alt="Calculator">
-                            <a class="portfolio__item-link" href="https://egor-vasilevskiy.github.io/Calculator/" target="_blank">Calculator -<br> (In developing)</a>
+                            <a class="portfolio__item-link lng-calculator" href="https://egor-vasilevskiy.github.io/Calculator/" target="_blank">Calculator -<br> (In developing)</a>
                         </div>
                     </div>
                 </div>
@@ -139,16 +143,16 @@
     <footer id="contacts" class="footer">
         <div class="container">
             <div class="footer__body">
-                <h3 class="footer__title">Contacts</h3>
-                <p class="footer__copy">
+                <h3 class="footer__title lng-contactsFooter">Contacts</h3>
+                <p class="footer__copy lng-footerCopy">
                     Want to know more or just chat? <br> You are welcome!
                 </p>
-                <button class="btn__message"><a class="a__message" href="https://t.me/EgorVasilevskiy" target="_blank">Send message</a></button>
+                <button class="btn__message"><a class="a__message lng-message" href="https://t.me/EgorVasilevskiy" target="_blank">Send message</a></button>
 
                 <div class="social__icon">
-                    <a class="social__icon-item" href="https://www.instagram.com/_egorkavasilevskiy_" target="_blank"><img src="./src/image/instagram.png" alt=""></a>
-                    <a class="social__icon-item" href="https://www.linkedin.com/in/egor-vasilevskiy-ab743120b/" target="_blank"><img src="./src/image/LinkedIn.png" alt=""></a>
-                    <a class="social__icon-item" href="https://t.me/EgorVasilevskiy" target="_blank"><img src="./src/image/telegram.png" alt=""></a>
+                    <a class="social__icon-item" href="https://www.instagram.com/_egorkavasilevskiy_" target="_blank"><img src="./src/image/instagram.png" alt="Instagram"></a>
+                    <a class="social__icon-item" href="https://www.linkedin.com/in/egor-vasilevskiy-ab743120b/" target="_blank"><img src="./src/image/LinkedIn.png" alt="LinkedIn"></a>
+                    <a class="social__icon-item" href="https://t.me/EgorVasilevskiy" target="_blank"><img src="./src/image/telegram.png" alt="Telegram"></a>
                 </div>
 
                 <p class="footer__subtitle">
@@ -157,7 +161,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="./src/js/lang.js"></script>
     <script src="./src/js/index.js"></script>
 </body>
 </html>
